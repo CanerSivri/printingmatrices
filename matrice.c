@@ -8,14 +8,15 @@ int main(){
     int arrrrrray[n][m];
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
-            printf("Please enter [%d]. [%d]. element: ",i+1,j+1);
+            printf("Please enter arrrrrray[%d][%d]: ",i,j);
             scanf("%d",&arrrrrray[i][j]);
         }
     }
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
-            printf("[%d]. [%d]. element of array: %d\n",i+1,j+1,arrrrrray[i][j]);
+            printf("arrrrrray[%d][%d]: %d\n",i,j,arrrrrray[i][j]);
         }
 }
+    system("pause");
     return 0;
 }
